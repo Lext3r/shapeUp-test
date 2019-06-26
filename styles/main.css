@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fefefe;
+}
+.pink{
+    color: #f80759;
+}
+.lblue{
+    color: #00ccff;
+}
+
+.active{
+    color: #f80759 !important;
+}
+.active:hover{
+    color: #ff6699!important;
+}
+
+.header {
+    height: 750px;
+    background: url(../img/header-bg.png) no-repeat center top;
+    width: 100%;
+    background-size: cover;
+}
+
+.header-logo{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.custom-btn{
+    margin: 10px;
+    border: 1px solid #f80759;
+    color: #fefefe;
+}
+.custom-btn:hover{
+    background: linear-gradient(0.25turn, #cc0033, #ff0000);
+    border: 1px solid #f80759;
+    color: #fefefe;
+}
+
+.title, .sub-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header .sub-title{
+    font-size: 36px;
+}
+.header .title{
+    font-size: 48px;
+}
+.about, .trainers, .service{
+    padding-top: 80px;
+
+}
+.content .title{
+    text-transform: none;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.content .sub-title{
+    font-size: 30px;
+}
+.content .description{
+    margin: 45px 0;
+    font-size: 22px;
+}
+.content .main-text{
+    font-size: 14px;
+}
+.current-video img{
+    width: 100%;
+    height: auto;
+}
+.previews img{
+    width: 30%;
+    margin: 10px 1%;
+    height: auto;
+}
+.previews img:hover{
+    border:2px solid #f80759;
+}
+.trainers-gallery{
+    display: flex;
+}
+.trainer-pic{
+    text-align: center;
+    margin: 50px 1%;
+    position: relative;
+    width: 18%;
+    height: 300px;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+.trainers-gallery img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-55%,-50%);
+}
+.trainer-pic:hover{
+    cursor: pointer;
+    filter: none;
+    border: 1px solid #f80759;
+}
+.trainer-pic:hover .name, .trainer-pic:hover .job{
+   visibility: visible;
+}
+.trainer-pic .name {
+    line-height: 1em;
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 35px;
+}
+.trainer-pic .job{
+    line-height: 1em;
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    color:#00ccff;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 10px;
+}
+.service-icon{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f80759;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+.service-icon img{
+    margin: auto;
+}
+.service-item{
+    margin: 60px 0;
+}
+.plan{
+    margin: 60px 0;
+    border: 1px solid #333333;
+}
+
+.plan-price{
+    vertical-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.plan-price strong{
+    font-weight: bold;
+    font-size: 36px;
+}
+.plan .subscription{
+    height: 50px;
+    line-height: 50px;
+    background-color: #333333;
+}
+.plan ul{
+    padding: 0;
+    list-style: none;
+}
+.plan ul li{
+    margin: 10px 30px;
+    font-size: 14px;
+}
+.plan:hover{
+    border-color:#00ccff;
+}
+.plan:hover .subscription{
+    background: linear-gradient(0.25turn, #cc0033, #ff0000);
+}
+.footer{
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
